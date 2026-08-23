@@ -1,0 +1,16 @@
+{
+  "glass_monthly": "D:/PATH/TO/GLASS/blueSky_monthly",
+  "glass_annual": "D:/PATH/TO/GLASS/blueSky_annual_updated_updated",
+  "glass_annual_landmask": "D:/PATH/TO/GLASS/blueSky_annual_updated_updated/annual_native_ERA5Land_landmask",
+  "modis_annual": "D:/PATH/TO/MODIS/Annual",
+  "era5_annual": "D:/PATH/TO/ERA5/Annual_Tif",
+  "lsm_nc": "D:/PATH/TO/lsm.nc",
+  "result1_root": "D:/WORK/Result1_Figures",
+  "result3_root": "D:/WORK/Result3_Figures_optimized",
+  "r3_common_grid": "D:/WORK/Result3_Figures_optimized/R3_CommonGrid_Rasters",
+  "r3_tables": "D:/WORK/Result3_Figures_optimized/R3_Tables",
+  "station_raw": "D:/PATH/TO/Station_Data",
+  "station_processed": "D:/PATH/TO/Fluxnet_Station_Validation",
+  "co2_workspace": "D:/PATH/TO/CO2_NOAA_Python"
+}
+

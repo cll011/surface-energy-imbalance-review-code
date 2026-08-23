@@ -1,0 +1,5 @@
+"Logical_file","Local_path","Bytes","SHA256","Interpretation"
+"ERA5-Land land-sea mask","D:\10_Research\2025_Albedo_Temp\09_拒稿后重投资料整理\lsm.nc","51898361","9DF65151D1608990851E2AA8D0E1E4CA063B5181B0568493C42676D2572B202C","Byte-identical alias"
+"ERA5-Land land-sea mask","D:\10_Research\01_Datasets\01_DataRaw\lsm.nc","51898361","9DF65151D1608990851E2AA8D0E1E4CA063B5181B0568493C42676D2572B202C","Active path in the final pathway script"
+"ERA5-Land land-sea mask","D:\10_Research\01_Datasets\01_DataRaw\ERA5\lsm.nc","51898361","9DF65151D1608990851E2AA8D0E1E4CA063B5181B0568493C42676D2572B202C","Byte-identical alias used by GLASS preprocessing"
+

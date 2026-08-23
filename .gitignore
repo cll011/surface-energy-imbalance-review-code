@@ -1,0 +1,11 @@
+config/paths.local.json
+results/*
+!results/README.md
+__pycache__/
+*.py[cod]
+*.log
+.idea/
+.vscode/
+.DS_Store
+anonymous_peer_review_code.zip
+
