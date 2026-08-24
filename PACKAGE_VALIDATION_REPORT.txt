@@ -1,5 +1,0 @@
-PACKAGE VALIDATION PASSED
-- required files present
-- Python sources compile
-- frozen Fig. 4 and pathway values match
-- no user-profile paths or e-mail addresses detected
