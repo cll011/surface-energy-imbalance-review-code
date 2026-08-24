@@ -11,8 +11,8 @@ This archive supports anonymous peer review of the manuscript **Surface energy i
 - Analytical land domain: ERA5-Land land-sea mask with `lsm >= 0.5`.
 - Area weighting: cosine of cell-centre latitude.
 - Primary albedo product: GLASS blue-sky shortwave albedo.
-- MODIS albedo: cross-product and site validation only.
-- ONI: annual scalar control, not a synthetic spatial raster.
+- MODIS albedo: cross-product and site validation.
+- ONI: annual scalar control.
 
 ## Archive structure
 
@@ -88,4 +88,4 @@ The archive uses the final common-mask XGBoost-SHAP results: AlbedoLoss mean abs
 
 ## Availability and planned DOI release
 
-If the paper is published, a versioned public release containing the code, environment files, compact source data, file manifest and checksums will be deposited in a DOI-minting repository. The resulting DOI will replace the provisional wording in the manuscript Code availability statement.
+If the paper is published, a versioned public release containing the code, environment files, compact source data, file manifest and checksums will be deposited in a DOI-minting repository.
