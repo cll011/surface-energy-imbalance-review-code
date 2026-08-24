@@ -39,11 +39,3 @@ The full satellite and reanalysis archives are not redistributed. The reviewer c
 ## Supplementary figures
 
 Supplementary plotting scripts are stored individually in `src/figures/supplementary/`. Final numbering, code, source files and reference PNGs are linked in `docs/FIGURE_CODE_MAP.csv`. `scripts/run_archived_figures.py` reruns every supplementary figure that depends only on the compact source data included here.
-
-## Superseded material
-
-- `blueSky_annual` was replaced by `blueSky_annual_updated_updated`.
-- MODIS-labelled historical Fig. 2 spatial products are not used as the primary GLASS result.
-- Earlier `R3_SHAP` outputs with 342,123 pixels and AlbedoLoss values of 0.103 to 0.139 are not active source data and are not included in the archive.
-- Uniform pseudo-spatial CO2 rasters were rejected; CO2 remains an annual background control.
-- ONI remains an annual scalar ENSO control and is not treated as a global spatial field.
