@@ -22,7 +22,6 @@ The full satellite and reanalysis archives are not redistributed. The reviewer c
 1. `src/analysis/01_fig2_temporal_analysis.py` reads annual GLASS and T2M rasters, applies one common land mask and cosine-latitude weighting, and produces annual means, quadratic display fits and BIC change-point candidates.
 2. `src/analysis/01b_fig2_spatial_coupling.py` calculates pixel-wise Pearson correlation, 2001-2024 trends, C1-C4 directional classes and the eight regional distributions using the same `lsm >= 0.5` domain.
 3. `src/figures/main/01_plot_fig2.py` assembles the temporal, change-point, spatial-correlation, directional-class and regional panels.
-4. Compact temporal inputs are under `data/source_data/fig2/`; the submitted visual reference is under `reference_outputs/main/`.
 
 ## Fig. 3 processing chain
 
