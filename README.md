@@ -2,8 +2,6 @@
 
 This archive supports anonymous peer review of the manuscript **Surface energy imbalance amplifies recent global warming**. It contains the analytical and plotting code used for Figs. 2-4 and Supplementary Figs. S1-S13, compact figure source data, environment specifications, data-path documentation and integrity checks.
 
-The archive contains no author names, affiliations, e-mail addresses, repository account names or unpublished DOI. Large third-party raster collections are not duplicated. Their providers, local analysis paths, expected file patterns and roles are documented in `data/DATA_INVENTORY.csv` and `docs/PIPELINE.md`.
-
 ## Frozen study design
 
 - Study period: 2001-2024.
@@ -78,9 +76,7 @@ series; they are not a comparison between all-land and snow-free albedo.
 
 ### 2. Full analysis from external gridded products
 
-Copy `config/paths.example.json` to `config/paths.local.json`, replace each placeholder with the local location of the corresponding dataset, and run the stages listed in `docs/PIPELINE.md`. `paths.local.json` is ignored by version control and must not be placed in a public archive.
-
-The full raw-data workflow is intentionally not run by the package validator because the external satellite and reanalysis archives are large and remain with their original providers. The package validator instead checks Python syntax, required source-data files, final frozen metrics and anonymity.
+Copy `config/paths.example.json` to `config/paths.local.json`, replace each placeholder with the local location of the corresponding dataset, and run the stages listed in `docs/PIPELINE.md`. 
 
 ## Code-to-figure traceability
 
@@ -88,10 +84,8 @@ The full raw-data workflow is intentionally not run by the package validator bec
 
 ## Final-version safeguards
 
-The archive uses the final common-mask XGBoost-SHAP results: AlbedoLoss mean absolute SHAP increases from 0.084 in P1 to 0.133 in P3, and 80.1% of valid land pixels have a positive P3-minus-P1 gain. Earlier unmasked outputs (`0.103` to `0.139`) are documented as superseded and are not included as active source data.
-
-Only the 2001-2024 full-record pathway results are part of the formal pathway evidence. The review archive therefore contains only the nine full-record coefficient rows; unstable short-period diagnostic regressions are excluded.
+The archive uses the final common-mask XGBoost-SHAP results: AlbedoLoss mean absolute SHAP increases from 0.084 in P1 to 0.133 in P3, and 80.1% of valid land pixels have a positive P3-minus-P1 gain. 
 
 ## Availability and planned DOI release
 
-This anonymous archive is the peer-review version. If the paper is published, a versioned public release containing the code, environment files, compact source data, file manifest and checksums will be deposited in a DOI-minting repository. The resulting DOI will replace the provisional wording in the manuscript Code availability statement. No DOI has been invented in this review archive.
+If the paper is published, a versioned public release containing the code, environment files, compact source data, file manifest and checksums will be deposited in a DOI-minting repository. The resulting DOI will replace the provisional wording in the manuscript Code availability statement.
