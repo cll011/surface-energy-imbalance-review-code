@@ -61,7 +61,7 @@ Scripts:
 
 The temporal script calculates area-weighted global-land annual series, quadratic display curves and BIC change-point candidates. The spatial script calculates pixel-wise Pearson correlation, linear trends, directional classes and regional summaries. The plotting script composes the temporal and spatial evidence.
 
-The BIC-selected single breakpoint is 2015. The 2020 boundary is a predefined recent-period boundary, not a second independently detected significant change point.
+The BIC-selected single breakpoint is 2015.
 
 ## Stage 4. Fig. 3 surface-energy partitioning
 
@@ -79,17 +79,17 @@ Scripts:
 - `src/analysis/03_xgboost_shap_analysis.py`
 - `src/figures/main/03_plot_fig4.py`
 
-The background model uses the specified large-scale controls. The contribution model uses AlbedoLoss, Rn, SM, LH and SH to predict residual temperature. Native XGBoost TreeSHAP values quantify fitted model contributions, not causal effects. The final analysis applies the same `lsm >= 0.5` domain to every raster variable.
+The background model uses the specified large-scale controls. The contribution model uses AlbedoLoss, Rn, SM, LH and SH to predict residual temperature. The final analysis applies the same `lsm >= 0.5` domain to every raster variable.
 
 ## Stage 6. Full-record pathway analysis
 
 Script: `src/analysis/04_pathway_analysis_full_record.py`
 
-The formal analysis uses annual cosine-latitude-weighted global-land means for 2001-2024 (`n=24`). Variables are standardized over the full record. Six linked OLS regressions, each with an intercept, provide standardized coefficients, SE, 95% CI, P, R2 and adjusted R2. Period-specific small-sample diagnostics are not used for the manuscript inference.
+The formal analysis uses annual cosine-latitude-weighted global-land means for 2001-2024 (`n=24`). Variables are standardized over the full record. Six linked OLS regressions, each with an intercept, provide standardized coefficients, SE, 95% CI, P, R2 and adjusted R2.
 
 ## Stage 7. Validation and supplementary figures
 
-Validation scripts are under `src/validation/`. Supplementary plotting scripts and their shared helper are under `src/figures/supplementary/`. Final numbering is mapped in `docs/FIGURE_CODE_MAP.csv`; historical script stems do not define final supplementary numbering.
+Validation scripts are under `src/validation/`. Supplementary plotting scripts and their shared helper are under `src/figures/supplementary/`. Final numbering is mapped in `docs/FIGURE_CODE_MAP.csv`.
 
 The editor-requested additions are consolidated in
 `src/validation/03_editor_revision_controls.py`. Using compact anonymized
