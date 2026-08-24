@@ -12,5 +12,5 @@
 - `validation/`: site-validation and product-comparison tables.
 - `controls/`: annual background-control table, common land mask and area weights.
 
-The `fig4/` directory contains only the final `lsm >= 0.5` source data. Earlier unmasked SHAP outputs are excluded from active source data.
+The `fig4/` directory contains the final `lsm >= 0.5` source data.
 
